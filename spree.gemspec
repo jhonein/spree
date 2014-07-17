@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.homepage     = 'http://spreecommerce.com'
   s.license      = %q{BSD-3}
 
-  s.add_dependency 'spree_core', version
+  s.add_dependency 'spree_core', '~> 2.1.0'
   s.add_dependency 'spree_api', version
   s.add_dependency 'spree_backend', version
   s.add_dependency 'spree_frontend', version
